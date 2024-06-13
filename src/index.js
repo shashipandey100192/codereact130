@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Abc, { About1 } from './Myabout';
+import Contactjs from './Contactjs';
+import "./style.css";
 
 
 
@@ -10,6 +12,7 @@ root.render(
 
  <Abc></Abc>
  <About1></About1>
+ <Contactjs></Contactjs>
 
   </React.StrictMode>
 );
