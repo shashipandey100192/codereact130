@@ -4,3 +4,12 @@
     background-color: blue;
     padding:20px;
 }
+.myerror
+{
+    text-align: center;
+    background-color: rgb(250, 191, 191);
+    height: 100vh;
+}
+.myerror h1{
+    font-size: 150px;
+}

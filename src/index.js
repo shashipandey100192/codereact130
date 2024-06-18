@@ -1,22 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Abc, { About1 } from './Myabout';
-import Contactjs from './Contactjs';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./style.css";
-import Mybootstrap from './Mybootstrap';
+import { BrowserRouter , Routes,Route} from 'react-router-dom';
+import Myloginpage from './modules/auth/Myloginpage';
+import Myerrorpage from './modules/shares/Myerrorpage';
+import Myregistorpage from './modules/auth/Myregistorpage';
+import Mylandingpage from './modules/dashboard/Mylandingpage';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<BrowserRouter>
+  <Routes>
+    <Route path='' element={<Myloginpage/>}/>
+    <Route path='registor' element={<Myregistorpage/>}/>
+    <Route path='dashboard' element={<Mylandingpage/>}/>
 
- <Abc></Abc>
- <About1></About1>
- <Contactjs></Contactjs>
- <Mybootstrap></Mybootstrap>
+    <Route path='*' element={<Myerrorpage/>}/>
+  </Routes>
+</BrowserRouter>
+
 
   </React.StrictMode>
 );

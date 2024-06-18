@@ -88,6 +88,16 @@ Note: repo name and project name must have same
 	2) npm install @mui/material @mui/styled-engine-sc styled-components
 	3) npm install @fontsource/roboto
 	4) npm install @mui/x-data-grid       // table
+----------------------------------------------------------
+26) routing
+	1) npm install react-router-dom
+	2) import
+		BrowserRouter
+		Routes
+		Route
+		Link
+	
+
 	
 
 	
