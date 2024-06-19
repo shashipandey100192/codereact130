@@ -97,7 +97,19 @@ Note: repo name and project name must have same
 		Route
 		Link
 	
-
+27) page types
+	1) blank page
+		error page
+		login page
+		forget page
+	2) full page
+		landing page
+		home page
+28)  what is webpack ?
+29) nested routing( sub routing)
+	<Outlet>
+		
+	
 	
 
 	

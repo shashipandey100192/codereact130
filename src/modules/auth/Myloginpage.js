@@ -22,6 +22,7 @@ function Myloginpage() {
                                 <input type='button' value="submit" className='btn btn-success' />
                                 <input type='reset' value="cancel" className='btn btn-danger ms-3' />
                                 <Link to="registor">New Registor</Link>
+                                <Link to="dashboard" className='btn'>dashboard</Link>
                             </div>
                         </div>
                     </div>
