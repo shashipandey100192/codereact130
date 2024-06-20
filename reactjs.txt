@@ -108,6 +108,8 @@ Note: repo name and project name must have same
 28)  what is webpack ?
 29) nested routing( sub routing)
 	<Outlet>
+-------------------------------------------------
+30) state 
 		
 	
 	
