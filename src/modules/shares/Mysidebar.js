@@ -17,7 +17,7 @@ function Mysidebar() {
           <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li><Link to="/dashboard" className="link-body-emphasis d-inline-flex text-decoration-none rounded">mainpage</Link></li>
             <li><Link to="contactus" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Contactus</Link></li>
-            <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a></li>
+            <li><Link to="crender" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Cond render</Link></li>
           </ul>
         </div>
       </li>

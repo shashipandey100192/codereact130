@@ -10,6 +10,7 @@ import Myregistorpage from './modules/auth/Myregistorpage';
 import Mylandingpage from './modules/dashboard/Mylandingpage';
 import Mymainpage from './modules/dashboard/Mymainpage';
 import Mycontactus from './modules/dashboard/Mycontactus';
+import Myconditionpage from './modules/dashboard/Myconditionpage';
 
 
 
@@ -23,6 +24,7 @@ root.render(
     <Route path='dashboard' element={<Mylandingpage/>}>
           <Route path='' element={<Mymainpage/>}/>
           <Route path='contactus' element={<Mycontactus/>}/>
+          <Route path='crender' element={<Myconditionpage/>}/>
           <Route path='*' element={<Myerrorpage/>}/>
           
     </Route>
