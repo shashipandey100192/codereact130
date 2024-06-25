@@ -110,6 +110,33 @@ Note: repo name and project name must have same
 	<Outlet>
 -------------------------------------------------
 30) state 
+31) react hooks (function)
+	1) useState()
+Note:  conditional rendering
+------------------------------------------------
+32) image sorce 
+	1) src folder
+	2) public folder
+	3) online 
+Note: img elements must have an alt prop
+	"photo","picture","image"
+33) props 
+34) api (network)
+	1) js core (fetch)
+	2) lab (axios)
+NOte: respons code status
+	Informational responses (100 – 199)
+	Successful responses (200 – 299)
+	Redirection messages (300 – 399)
+	Client error responses (400 – 499)
+	Server error responses (500 – 599)
+35) axios
+	1) npm install axios
+	2) import 
+
+	
+	
+	
 		
 	
 	

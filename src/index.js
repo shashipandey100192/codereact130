@@ -11,6 +11,8 @@ import Mylandingpage from './modules/dashboard/Mylandingpage';
 import Mymainpage from './modules/dashboard/Mymainpage';
 import Mycontactus from './modules/dashboard/Mycontactus';
 import Myconditionpage from './modules/dashboard/Myconditionpage';
+import Myparent from './modules/dashboard/propselement/Myparent';
+import Myaxiospage from './modules/dashboard/Myaxiospage';
 
 
 
@@ -25,6 +27,8 @@ root.render(
           <Route path='' element={<Mymainpage/>}/>
           <Route path='contactus' element={<Mycontactus/>}/>
           <Route path='crender' element={<Myconditionpage/>}/>
+          <Route path='props' element={<Myparent/>}/>
+          <Route path='myaxios' element={<Myaxiospage/>}/>
           <Route path='*' element={<Myerrorpage/>}/>
           
     </Route>

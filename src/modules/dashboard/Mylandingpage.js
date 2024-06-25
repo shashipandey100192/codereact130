@@ -5,6 +5,8 @@ import Myfooter from '../shares/Myfooter'
 import { Outlet } from 'react-router-dom'
 
 function Mylandingpage() {
+const a = "ravi singh";
+
   return (
    <div className='container-fluid'>
     <div className='row fixed-top'>
