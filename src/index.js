@@ -13,6 +13,8 @@ import Mycontactus from './modules/dashboard/Mycontactus';
 import Myconditionpage from './modules/dashboard/Myconditionpage';
 import Myparent from './modules/dashboard/propselement/Myparent';
 import Myaxiospage from './modules/dashboard/Myaxiospage';
+import Mydetailspage from './modules/dashboard/Mydetailspage';
+import Mygraphpage from './modules/dashboard/Mygraphpage';
 
 
 
@@ -29,6 +31,8 @@ root.render(
           <Route path='crender' element={<Myconditionpage/>}/>
           <Route path='props' element={<Myparent/>}/>
           <Route path='myaxios' element={<Myaxiospage/>}/>
+          <Route path='myaxios/view/:id' element={<Mydetailspage/>}/>
+          <Route path='mygrap' element={<Mygraphpage/>}/>
           <Route path='*' element={<Myerrorpage/>}/>
           
     </Route>

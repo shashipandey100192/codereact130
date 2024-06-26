@@ -133,6 +133,12 @@ NOte: respons code status
 35) axios
 	1) npm install axios
 	2) import 
+-------------------------
+36) param routing
+	useParam()
+37) chart(graph)
+	1) npm install recharts
+	2) import 
 
 	
 	

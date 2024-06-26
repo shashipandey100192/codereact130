@@ -20,6 +20,7 @@ function Mysidebar() {
             <li><Link to="crender" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Cond render</Link></li>
             <li><Link to="props" className="link-body-emphasis d-inline-flex text-decoration-none rounded">props</Link></li>
             <li><Link to="myaxios" className="link-body-emphasis d-inline-flex text-decoration-none rounded">axios</Link></li>
+            <li><Link to="mygrap" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Charts</Link></li>
           </ul>
         </div>
       </li>
