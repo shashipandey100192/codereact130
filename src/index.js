@@ -15,6 +15,7 @@ import Myparent from './modules/dashboard/propselement/Myparent';
 import Myaxiospage from './modules/dashboard/Myaxiospage';
 import Mydetailspage from './modules/dashboard/Mydetailspage';
 import Mygraphpage from './modules/dashboard/Mygraphpage';
+import Myformspage from './modules/dashboard/Myformspage';
 
 
 
@@ -33,6 +34,7 @@ root.render(
           <Route path='myaxios' element={<Myaxiospage/>}/>
           <Route path='myaxios/view/:id' element={<Mydetailspage/>}/>
           <Route path='mygrap' element={<Mygraphpage/>}/>
+          <Route path='myform' element={<Myformspage/>}/>
           <Route path='*' element={<Myerrorpage/>}/>
           
     </Route>
