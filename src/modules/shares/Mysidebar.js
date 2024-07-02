@@ -22,6 +22,7 @@ function Mysidebar() {
             <li><Link to="myaxios" className="link-body-emphasis d-inline-flex text-decoration-none rounded">axios</Link></li>
             <li><Link to="mygrap" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Charts</Link></li>
             <li><Link to="myform" className="link-body-emphasis d-inline-flex text-decoration-none rounded">myforms</Link></li>
+            <li><Link to="lazy" className="link-body-emphasis d-inline-flex text-decoration-none rounded">lazyloading</Link></li>
           </ul>
         </div>
       </li>

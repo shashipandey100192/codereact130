@@ -139,6 +139,30 @@ NOte: respons code status
 37) chart(graph)
 	1) npm install recharts
 	2) import 
+-----------------------------------------
+38) react forms
+	1) lab ( react-hook-form)
+		1) npm install react-hook-form
+		2) import 
+	2) custom 
+
+39) lazyloading
+	1) lazy()
+	2) import()
+	3) suspence
+	4) fallback
+
+40) react-redux
+	1) configureStore
+	2) reducer
+	3) Provider
+	4) createSlice
+	5) useSelector
+	6) useDispatch
+	7) dispatch
+	8) state
+	9) action
+
 
 	
 	

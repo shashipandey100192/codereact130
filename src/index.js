@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{lazy,Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
@@ -16,7 +16,8 @@ import Myaxiospage from './modules/dashboard/Myaxiospage';
 import Mydetailspage from './modules/dashboard/Mydetailspage';
 import Mygraphpage from './modules/dashboard/Mygraphpage';
 import Myformspage from './modules/dashboard/Myformspage';
-
+// import Mylazypage from './modules/dashboard/Mylazypage';
+const Mylazypage = lazy(()=>import('./modules/dashboard/Mylazypage'));
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -35,6 +36,9 @@ root.render(
           <Route path='myaxios/view/:id' element={<Mydetailspage/>}/>
           <Route path='mygrap' element={<Mygraphpage/>}/>
           <Route path='myform' element={<Myformspage/>}/>
+          <Route path='lazy' element={<Suspense fallback={<h1 className='loader'>LoadingPage...</h1>}>
+            <Mylazypage/>
+          </Suspense>}></Route>
           <Route path='*' element={<Myerrorpage/>}/>
           
     </Route>
