@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import myimg from '../../images/img4.jpg';
+
 const imgone = "https://img.freepik.com/free-photo/digital-art-moon-wallpaper_23-2150918875.jpg";
 
 
@@ -50,6 +51,7 @@ const textcolor = (e)=>
     <img src={myimg} alt="sdjfhsdjf" width={300}/>
     <img src='photo/img5.jpg' width={300} alt='skdhfjds'/>
     <img src={imgone}/>
+  
 
     </div>
   )
