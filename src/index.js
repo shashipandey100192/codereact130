@@ -20,6 +20,7 @@ import { Provider } from 'react-redux';
 import { mystore } from './modules/dashboard/redux/Mystore';
 import Myreduxpage from './modules/dashboard/redux/Myreduxpage';
 import { Myclass } from './modules/dashboard/Myclasspage';
+import Myfilterpage from './modules/dashboard/Myfilterpage';
 // import Mylazypage from './modules/dashboard/Mylazypage';
 const Mylazypage = lazy(()=>import('./modules/dashboard/Mylazypage'));
 
@@ -46,6 +47,7 @@ root.render(
           </Suspense>}></Route>
           <Route path='redux' element={<Myreduxpage/>}/>
           <Route path='ccomponent' element={<Myclass/>}/>
+          <Route path='myfilter' element={<Myfilterpage/>}/>
           <Route path='*' element={<Myerrorpage/>}/>
     </Route>
     <Route path='*' element={<Myerrorpage/>}/>

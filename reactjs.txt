@@ -153,7 +153,7 @@ NOte: respons code status
 	4) fallback
 
 40) react-redux
-	1) configureStore
+	1) configureStore		
 	2) reducer
 	3) Provider
 	4) createSlice

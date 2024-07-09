@@ -25,6 +25,7 @@ function Mysidebar() {
             <li><Link to="lazy" className="link-body-emphasis d-inline-flex text-decoration-none rounded">lazyloading</Link></li>
             <li><Link to="redux" className="link-body-emphasis d-inline-flex text-decoration-none rounded">redux</Link></li>
             <li><Link to="ccomponent" className="link-body-emphasis d-inline-flex text-decoration-none rounded">classcompo</Link></li>
+            <li><Link to="myfilter" className="link-body-emphasis d-inline-flex text-decoration-none rounded">filterpro</Link></li>
           </ul>
         </div>
       </li>
